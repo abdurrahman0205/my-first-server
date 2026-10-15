@@ -16,11 +16,7 @@ const users = [
   { "id": 9, "name": "Ian Malcolm", "email": "ian.malcolm@example.com" },
   { "id": 10, "name": "Julia Roberts", "email": "julia.roberts@example.com" }
 ]
-const getData = async () => {
-  const res = fetch(`https://jsonplaceholder.typicode.com/comments`)
-  const data = await res.json()
-  return data;
-}
+
 
 
 
